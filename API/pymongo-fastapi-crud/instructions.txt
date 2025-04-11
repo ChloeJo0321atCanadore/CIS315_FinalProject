@@ -1,0 +1,25 @@
+### Instructions for MongoDB and the backend ###
+
+1. Install and download MongoDB
+
+2. Start MongoDB using mondgod
+
+3. Create a virtual environment using the following commands
+python -m venv env
+env\Scripts\activate
+
+4. Install packages needed
+pip install fastapi pymongo python-dotenv pydantic
+
+5. Create a .env file and store DB_URI (MongoDB connection string) in the file
+
+6. Write FastAPI code
+
+7. Run FastAPI application using the following commands
+uvicorn main:app --reload
+
+8. Test the endpoints using Postman
+
+9. Create a new request on Postman (get, put, post, delete)
+
+10. Send requests using http://127.0.0.1:8000/collectionName and check the API responses
